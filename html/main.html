@@ -1,1 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<title>대한민국 쇼핑몰 포털</title>
+<link rel="stylesheet" href="../assets/css/gulwin.css" type="text/css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /><!-- swiper -->
+</head>
+<body>
 
+<main>
+    <!-- header start -->
+    <header id="top-header">
+        <article class="util">
+            <div>
+                <button class="home"><span class="blind">home</span></button>
+                <span class="user">이원택 님</span>
+                <button><span>로그인</span></button>
+                <button><span>회원가입</span></button>
+                <button><span>마이홈</span></button>
+                <button><span>로그아웃</span></button>
+                <div class="care-center">
+                    <button><span>업종유형</span></button>
+                    <div>
+                        <button><span>홈쇼핑</span></button>
+                        <button><span>백화점</span></button>
+                        <button><span>온라인</span></button>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <div class="gnb-wrap">
+            <section class="gnb">
+                <h1><a href="main.html"><img src="../assets/img/common/img-gnb-logo2.png" alt="대한민국 쇼핑포털" /></a></h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <button class="current"><span>홈쇼핑</span></button>
+                            <div>
+                                <button onclick="location.href='http://www.gsshop.com'" target="_blank"><span>GS홈쇼핑</span></button>
+                                <button onclick="location.href='http://www.cjonstyle.com'" target="_blank"><span>CJ온스타일</span></button>
+                                <button onclick="location.href='http://www.lotteon.com'" target="_blank"><span>롯데ON</span></button>
+                            </div>
+                        </li>
+
+                        <li>
+                            <button class="current"><span>백화점</span></button>
+                            <div>
+                                <button onclick="location.href='http://www.ehyundai.com'" target="_blank"><span>현대백화점</span></button>
+                                <button onclick="location.href='http://store.lotteshopping.com'" target="_blank"><span>롯데백화점</span></button>
+                                <button onclick="location.href='http://www.shinsegae.com'" target="_blank"><span>신세계백화점</span></button>
+                            </div>
+                        </li>
+                        <li>
+                            <button class="current"><span>온라인</span></button>
+                            <div>
+                                <button onclick="location.href='http://www.gmarket.co.kr'" target="_blank"><span>Gmarket</span></button>
+                                <button onclick="location.href='http://www.auction.co.kr'" target="_blank"><span>옥션</span></button>
+                                <button onclick="location.href='http://www.coupang.com'" target="_blank"><span>쿠팡</span></button>
+                            </div>
+                        </li>
+
+
+
+
+                        <li>
+                            <button><span>고객센터</span></button>
+                            <div>
+                                <button><span>공지사항</span></button>
+                                <button><span>FAQ</span></button>
+                                <button><span>문의하기</span></button>
+                                <button><span>원격지원</span></button>
+                            </div>
+                        </li>
+                        <li><button><span>문자전송</span></button></li>
+                    </ul>
+                </nav>
+                <button><span>원격지원 서비스</span></button>
+            </section>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <section class="main-visual">
+        <div class="swiper visualswiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../assets/img/main/main-visual01r.png" alt="" /></div>
+                <div class="swiper-slide"><img src="../assets/img/main/main-visual02r.png" alt="" /></div>
+                <div class="swiper-slide"><img src="../assets/img/main/main-visual03r.png" alt="" /></div>
+                <div class="swiper-slide"><img src="../assets/img/main/main-visual04r.png" alt="" /></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <aside>
+        <button><span>서비스 신청</span></button>
+        <button><span>서비스 결제</span></button>
+        <button><span>원격지원 서비스</span></button>
+        <div>
+            <p>고객센터</p>
+            <p>1500-1500</p>
+        </div>
+    </aside>
+    
+    <!-- footer start -->
+    <footer>
+        <section class="footer">
+            <article class="footer-link">
+                <p>
+                    <a href="#" class="f-link">이용약관</a>
+                    <a href="#" class="f-link">개인정보처리방침</a>
+                </p>
+                <address>
+                    사업자명: (주)빅데이터_인공지능 시스템 / 사업자번호: 100-09-12345 / 대표: 이길흥<br />
+                    (01811) 서울시 노원구 공릉로 232 서울과학기술대학교 빅데이터AT학과 사무실/ 대표전화:1500-1500 / FAX:02-123-1234<br />
+                    COPYRIGHT(C) 2021 (주)빅데이터_인공지능 시스템 ALL RIGHTS RESERVED.
+                </address>
+            </article>
+            <div>
+                <a href="https://www.kakaocorp.com/page/service/service/KakaoTalk?lang=ko" target="_blank"><img src="../assets/img/common/img-bottom01.png" alt="" /></a>
+                <a href="./main.html" target="_blank"><img src="../assets/img/common/img-bottom02r.png" alt="" /></a>
+            </div>
+        </section>
+    </footer>
+    <!-- footer end -->
+</main>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".visualswiper", {
+    effect: 'fade',
+    fadeEffect: {
+        crossFade: true
+    },
+    autoplay: {
+    delay: 5000,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      dynamicBullets: true,
+      clickable: true,
+    },
+  });
+</script>
+
+</body>
+</html>
