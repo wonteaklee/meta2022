@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/*/////////////////////////////// html 엘리먼트 속성 초기화 */
+h1, h2, h3, h4, h5, h6 { font-size: 1em; margin: 0px; font-weight: normal; }
+
+p, ul, ol, li, dl, dt, dd, form, fieldset { margin: 0px; padding: 0px; font-size: 100%; }
+
+ul, ol, li { list-style: none; font-size: 100%; }
+
+table { border-collapse: collapse; font-size: 100%; }
+
+legend { visibility: hidden; overflow: hidden; width: 0; height: 0; background-color: transparent; font-size: 0; line-height: 0; }
+
+caption { visibility: hidden; overflow: hidden; width: 0; height: 0; background-color: transparent; font-size: 0; line-height: 0; text-indent: -9999em; }
+
+img { border: 0px none; font-size: 0px; line-height: 0px; }
+
+input, select, textarea { margin: 0px; padding: 0px; }
+
+input { line-height: 16px; }
+
+.msie7 label input[type=radio], .msie7 label input[type=checkbox] { width: 14px; height: 14px; }
+
+/*/////////////////////////////// 그외 초기화 ///////////////////////////////*/
+body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, header, hgroup, footer, nav, section, article, aside, figure, video, audio { margin: 0; padding: 0; border: 0; }
+
+em, address { font-style: normal; }
+
+hr { display: none; }
+
+*:first-child + html label { vertical-align: bottom; }
+
+select, textarea, input, img, button { vertical-align: middle; }
+
+table td { word-wrap: break-word; word-break: break-all; }
+
+button { cursor: pointer; }
+
+*:focus { outline: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+audio, canvas, progress, video { display: inline-block; vertical-align: baseline; }
+
+/*/////////////////////////////// 레이아웃 ///////////////////////////////*/
+* { padding: 0; margin: 0; }
+
+html, body { width: 100%; height: 100%; background: #f5f5f5; }
+
+#wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; width: 100%; }
+
+#container { padding: 126px 0 80px; width: 100%; background: #fff; }
+
+#content { margin: 0 auto; width: 1200px; }
+
+body::-webkit-scrollbar,
+.layer-content::-webkit-scrollbar,
+.myhome-con::-webkit-scrollbar,
+.scroll-y::-webkit-scrollbar
+{
+  /* background-color: var(--background-color); */
+  width: 8px;
+}
+  
+body::-webkit-scrollbar-track,
+.layer-content::-webkit-scrollbar-track,
+.myhome-con::-webkit-scrollbar-track,
+.scroll-y::-webkit-scrollbar-track
+{
+  background-color: #f1f1f1;
+}
+  
+body::-webkit-scrollbar-track:hover,
+.layer-content::-webkit-scrollbar-track:hover,
+.myhome-con::-webkit-scrollbar-track:hover,
+.scroll-y::-webkit-scrollbar-track:hover
+{
+  background-color: #f2eeff;
+ }
+  
+body::-webkit-scrollbar-thumb,
+.layer-content::-webkit-scrollbar-thumb,
+.myhome-con::-webkit-scrollbar-thumb,
+.scroll-y::-webkit-scrollbar-thumb
+{
+  background-color: #ccc;
+  /* border-radius: 16px; */
+  border: 6px solid #e0e0e0;
+}
+  
+body::-webkit-scrollbar-thumb:hover,
+.layer-content::-webkit-scrollbar-thumb:hover,
+.myhome-con::-webkit-scrollbar-thumb:hover,
+.scroll-y::-webkit-scrollbar-thumb:hover
+{
+  background-color: #ccc;
+  border: 5px solid #4e408a;
+}
+  
+body::-webkit-scrollbar-button,
+.layer-content::-webkit-scrollbar-button,
+.myhome-con::-webkit-scrollbar-button,
+.scroll-y::-webkit-scrollbar-button
+{
+  display: none;
+}
+
+/*/////////////////////////////// 전체 폰트 ///////////////////////////////*/
+body, select, textarea, a, button, input { font-family: 'Noto Sans KR', sans-serif; font-size: 100%; color: #333; line-height: 1; }

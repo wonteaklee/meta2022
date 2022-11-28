@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/*
+//i5gamicare//
+publisher : 성지애
+first day : 2021-09-06
+last day :
+*/
+
+
+/*/////////////////////////////// font ///////////////////////////////*/
+@import url("https://fonts.googleapis.com/earlyaccess/notosanskr.css");
+@import url("https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css");
+/*icon*/
+@import url("https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp");
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+/*/////////////////////////////// font ///////////////////////////////*/
+
+@import url('default.css'); /* 기본정의 */
+@import url('common.css'); /* 공통정의 */
+@import url('content.css'); /* 서브 공통 */
+@import url('board.css'); /* 게시판 */
+@import url('member.css'); /* 회원 */
+
+
+/*/////////////////////////////// root ///////////////////////////////*/
+:root {
+	
+	/*color*/
+	--main-color: #aa7ef4; /*공통 컬러*/
+	/* point-color */
+	--pointer-color1 : #7d41e5; /*purple*/
+	--pointer-color2 : #e4392e; /*red*/
+	--pointer-color3 : #2e6ee4; /*blue*/
+	
+}
+
+.material-icons {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;  /* Preferred icon size */
+	display: inline-block;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+  
+	/* Support for all WebKit browsers. */
+	-webkit-font-smoothing: antialiased;
+	/* Support for Safari and Chrome. */
+	text-rendering: optimizeLegibility;
+  
+	/* Support for Firefox. */
+	-moz-osx-font-smoothing: grayscale;
+  
+	/* Support for IE. */
+	font-feature-settings: 'liga';
+  }
